@@ -1,7 +1,7 @@
 /*----------HEADER---------*/
 
 
-@media only screen and (min-width: 320px) and (max-width: 440px) {
+@media only screen and (min-width: 322px) and (max-width: 480px) {
 
 
   header {
@@ -13,8 +13,9 @@
   }
 
   .boton {
-  
-    font-size: 10px;
+    border: 2.5px solid #28d1be;
+    padding: 3px 5px;
+    font-size: 13px;
   
   }
 
@@ -44,7 +45,7 @@
 
 
 
-@media (max-width: 440px) {
+@media (max-width: 480px) {
 
 
   .and {
@@ -54,7 +55,7 @@
   }
 }
 
-@media (min-width: 330px) {
+@media (min-width: 320px) {
 
   .and {
    
@@ -82,7 +83,7 @@
 
 
 
-@media (max-width: 390px) {
+@media (max-width: 480px) {
 
 
   .and {
@@ -111,7 +112,7 @@
 
   /*BOXS*/
 
-  @media only screen and (min-width: 320px) and (max-width: 440px) {
+  @media only screen and (min-width: 322px) and (max-width: 480px) {
 
 
 
@@ -189,7 +190,7 @@
 
 
   
-  @media only screen and (min-width: 320px) and (max-width: 440px) {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
     .box02 {
       position: absolute;
       width: 100px;
@@ -275,7 +276,7 @@
 
 /*SECTION EXCHANJE */
 
-@media only screen and (min-width: 320px) and (max-width: 440px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     .swap-container {
       width: 55%;
       height: 200px;
@@ -312,7 +313,7 @@
       width: 112px;
       height: 27.5px;
       top: 32.9%;
-      margin-left: -2.5%;
+      margin-left: -4.5%;
       border-radius: 10px;
     }
   
@@ -428,10 +429,7 @@
       font-size: 9px;
     }
   
-    .container-chain p {
-      font-size: 12px;
-      margin-left: -890px;
-    }
+ 
   
     .swap-text {
       top: 29%;
@@ -489,36 +487,42 @@
   
   
     .rest {
-      max-width: 55%;
-      max-height: 25%;
+      max-width: 50%;
+      max-height: 20%;
       margin-top: -160%;
       left: 1%;
+   
   
     }
   
     .container-carrusel h1 {
       margin-left: -20%;
-      margin-top: -185%;
+      margin-top: -170%;
       font-size: 14px;
+     
     }
   
     .container-contexto p {
       margin-left: -4%;
-      margin-top: -155%;
+      margin-top: -170%;
       width: 170px;
       font-size: 12px;
+    
     }
   
   
   
     .waths {
-      top: 280%;
+      position: absolute;
+      top: 202%;
       left: 90px;
     }
   
     .waths h1 {
+   
       text-align: center;
-      font-size: 20px;
+      font-size: 14px;
+     
     }
   
   
@@ -531,7 +535,7 @@
   
   
     .content-imagen img {
-      width: 48.3%;
+      width: 48.9%;
       left: 1%;
       margin-top: -20%;
     }
@@ -554,7 +558,7 @@
 
 
   
-  @media only screen and (min-width: 320px) and (max-width: 440px) {
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
     .container-social {
       margin-top: 1%;
       margin-left: -1%;
@@ -632,7 +636,7 @@
 
 
 
-  @media only screen and (min-width: 320px) and (max-width: 440px) {
+  @media only screen and (min-width: 322px) and (max-width: 480px) {
 
     footer {
   
@@ -644,9 +648,9 @@
     .tab {
   
   
-      height: 7%;
+      height: 5%;
       padding: 10px;
-      margin-top: 40%;
+      margin-top: 41%;
       font-size: 11px;
   
   
@@ -701,7 +705,7 @@
 /*----------PANTALLA DOS ---------*/
 
 
-@media  (max-width: 320px) {
+@media only screen and (min-width: 260px) and  (max-width: 320px){
 
 
   header {
@@ -768,7 +772,7 @@
 
   /*BOXS*/
 
-  @media  (max-width: 320px) {
+  @media only screen and (min-width: 260px) and  (max-width: 320px) {
 
 
 
@@ -787,9 +791,11 @@
     }
   
     .bid-container {
-
+      width: 100px;
+      height: 33px;
       margin-top: 135px;
       margin-left: 210px;
+     
     }
   
     .bid-container h4 {
@@ -801,9 +807,11 @@
     }
   
     .audi01 {
-      width: 115px;
+      width: 130px;
       height: 38px;
-     
+      margin-left: -40px;
+      border-radius: 10px;
+      
     }
   
     .audi01 p {
@@ -840,7 +848,7 @@
 
 
   
-  @media  (max-width: 320px) {
+  @media only screen and (min-width: 260px) and  (max-width: 320px) {
     .box02 {
       position: absolute;
       width: 100px;
@@ -927,7 +935,7 @@
 
 /*SECTION EXCHANJE */
 
-@media  (max-width: 320px){
+@media only screen and (min-width: 260px) and  (max-width: 320px){
     .swap-container {
       width: 50%;
       height: 200px;
@@ -1182,7 +1190,7 @@
   
   
     .content-imagen img {
-      width: 40.3%;
+      width: 38.3%;
       left: 1%;
       margin-top: -20%;
     }
@@ -1213,7 +1221,7 @@
 
 
   
-  @media  (max-width: 320px) {
+  @media only screen and (min-width: 260px) and  (max-width: 320px){
     .container-social {
       margin-top: 1%;
       margin-left: -6%;
@@ -1293,7 +1301,7 @@
 
 
 
-  @media  (max-width: 320px) {
+  @media only screen and (min-width: 260px) and  (max-width: 320px){
 
     footer {
   
@@ -1323,7 +1331,7 @@
   
     .tab::after {
   
-      font-size: 14px;
+      font-size: 11px;
       right: -10;
   
     }
@@ -1343,7 +1351,7 @@
   
     .amaxlogo {
       height: 5%;
-      margin-left: -80%;
+      margin-left: -99%;
       margin-top: 20%;
     }
   }
