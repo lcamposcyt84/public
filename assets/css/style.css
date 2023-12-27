@@ -31,8 +31,8 @@ a:hover {
   z-index: 9999;
   overflow: hidden;
   background: linear-gradient(119.95deg,
-      #7454a5 3.52%,
-      #9f67db 45.5%,
+      #4f2096 3.52%,
+      #2d2bd5 45.5%,
       #385175 93.24%);
 }
 
@@ -41,9 +41,8 @@ a:hover {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border: 4.5px solid #28D1BE;
+  border-top: 5.5px solid #069c8b;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -81,7 +80,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #672188;
+  background:#28D1BE;
   width: 40px;
   height: 40px;
   border-radius: 50px;
