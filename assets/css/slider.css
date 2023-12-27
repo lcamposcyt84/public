@@ -409,7 +409,7 @@
 
 
 
-@media (min-width:320px) and (max-width: 390px) {
+@media  (max-width: 320px) {
 
   .slider {
 
@@ -419,17 +419,28 @@
   }
 
   .order-1 {
-    left: 72px;
-    top: -45px;
+    left: 60px;
+    top: -25px;
   }
 
 
   #myCarousel .carousel-item .mask {
-    width: 38%;
+    width: 33%;
     height: 45%;
 
 
   }
 
+
+
+  #myCarousel .letras {
+
+
+  
+    margin-top: -65%;
+    margin-left: 15%;
+
+
+  }
 
 }
