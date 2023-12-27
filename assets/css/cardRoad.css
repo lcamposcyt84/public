@@ -143,7 +143,7 @@
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 340px) and (max-width: 440px) {
 
 
 
@@ -219,7 +219,7 @@
 
 
 
-@media only screen and (min-width: 270px) and (max-width: 390px) {
+@media only screen and (min-width: 330px) and (max-width: 390px) {
 
 
 
@@ -238,7 +238,7 @@
     width: 20%;
     max-height: 150px;
     margin-top: -16%;
-    left: 1%;
+    left: 3%;
 
   }
 
@@ -249,7 +249,7 @@
     width: 13%;
     max-height: 150px;
     margin-top: -18%;
-    left: 27%;
+    left: 26%;
   }
 
 

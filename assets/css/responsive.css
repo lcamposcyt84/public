@@ -13,14 +13,9 @@
   }
 
   .boton {
-    border: 2px solid #28d1be;
-
-    font-family: Poppins;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
+  
     font-size: 10px;
-    cursor: pointer;
+  
   }
 
   .dropdown a {
@@ -53,18 +48,18 @@
 
 
   .and {
-    margin-top: 230px;
+  
     font-size: 25px;
-    padding: 100px;
+
   }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 330px) {
 
   .and {
-    margin-top: 230px;
+   
     font-size: 20px;
-    padding: 50px;
+  
   }
 }
 
@@ -503,7 +498,7 @@
   
     .container-carrusel h1 {
       margin-left: -20%;
-      margin-top: -167%;
+      margin-top: -185%;
       font-size: 14px;
     }
   
@@ -517,7 +512,7 @@
   
   
     .waths {
-      top: 227%;
+      top: 280%;
       left: 90px;
     }
   
@@ -562,7 +557,7 @@
   @media only screen and (min-width: 320px) and (max-width: 440px) {
     .container-social {
       margin-top: 1%;
-      margin-left: 1%;
+      margin-left: -1%;
     }
   
   
@@ -643,7 +638,7 @@
   
       top: 3040px;
       display: flex;
-      height: 60%;
+      height: 100%;
     }
   
     .tab {
@@ -703,83 +698,98 @@
 
 
 
+/*----------PANTALLA DOS ---------*/
 
 
-  
-
-  /*WINDOW PHONE 2*/
+@media  (max-width: 320px) {
 
 
-
-  @media only screen and (min-width: 270px) and (max-width: 390px) {
-
-
-    header {
-      margin-left: -10px;
-    }
-  
-    body {
-      overflow-x: hidden;
-    }
-  
-    .boton {
-    
-  
-      font-size: 8px;
-     
-     
-    }
-  
-    .dropdown a {
-      font-family: Poppins;
-      font-size: 12px;
-    }
-  
-    .boton-rounded {
-      border-radius: 15px 0 0 15px;
-    }
-  
-    .boton-rounded.opuesto {
-      border-radius: 0 15px 15px 0;
-    }
-  
-    .Alogo {
-      padding: 6px;
-      width: 40px;
-    }
-  
-    .dropdown a {
-      font-size: 10px;
-    }
+  header {
+    margin-left: -1px;
   }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .boton {
+    border: 2px solid #28d1be;
+    padding: 1px 2px;
+    font-size: 8.5px;
+
   
+  }
+  .dropdown a {
+  
+    font-size: 12px;
+  }
+
+  .boton-rounded {
+    border-radius: 15px 0 0 15px;
+  }
+
+  .boton-rounded.opuesto {
+    border-radius: 0 15px 15px 0;
+  }
+
+  .Alogo {
+    padding: 6px;
+    width: 15%;
+  }
+
+  .dropdown a {
+    font-size: 10px;
+  }
+}
 
 
+
+
+
+
+
+
+@media (min-width: 240px) {
+
+  .and {
+    margin-top: 230px;
+    font-size: 12px;
+    padding: 50px;
+  }
+}
+
+
+
+
+
+
+
+  /*----------BODY AND SECTIONS---------*/
 
   /*BOXS*/
 
-  @media only screen and (min-width: 320px) and (max-width: 390px) {
+  @media  (max-width: 320px) {
 
 
 
     .soportado h2 {
-     
-      font-size: 16px;
-    
-     
+      text-align: center;
+      font-size: 14px;
+      margin-left: -990px;
+  
     }
   
     .box01 {
-      width: 95px;
-      height: 120px;
-      margin-left: 290px;
-    
+      width: 90px;
+      height: 125px;
+      margin-left: 220px;
+      margin-top: -1230px;
     }
   
     .bid-container {
-      width: 100px;
-      height: 33px;
-      margin-left: 289px;
+
+      margin-top: 135px;
+      margin-left: 210px;
     }
   
     .bid-container h4 {
@@ -791,10 +801,9 @@
     }
   
     .audi01 {
-      width: 135px;
+      width: 115px;
       height: 38px;
-      margin-left: -40px;
-      border-radius: 10px;
+     
     }
   
     .audi01 p {
@@ -831,7 +840,7 @@
 
 
   
-@media only screen and (min-width: 320px) and (max-width: 390px) {
+  @media  (max-width: 320px) {
     .box02 {
       position: absolute;
       width: 100px;
@@ -857,9 +866,9 @@
   
     .audi02 {
       display: flex;
-      width: 148.5px;
+      width: 115px;
       height: 37px;
-      margin-left: 10px;
+      margin-left: px;
       border-radius: 10px;
     }
   
@@ -877,10 +886,6 @@
     .inver02 {
       width: 100px;
       height: 125px;
-      transform: skew(1deg);
-      border-radius: 20px;
-      margin-left: 15px;
-      margin-top: -25px;
     }
   
     .aution02 {
@@ -892,6 +897,7 @@
       font-size: 10.5px;
       text-align: center;
       margin-top: 20px;
+  
     }
   
     .container-text {
@@ -901,13 +907,17 @@
     }
   
     .container-text h1 {
-      font-size: 8px;
+      margin-top: 4%;
+      position: absolute;
+      font-size: 7px;
+      margin-left: 22%;
     }
   
     .container-text h3,
     h4,
     h6 {
-      font-size: 8px;
+      font-size: 6px;
+      margin-left: -20%;
     }
   }
   
@@ -915,42 +925,251 @@
 
 
 
-@media only screen and (min-width: 270px) and (max-width: 390px) {
+/*SECTION EXCHANJE */
 
+@media  (max-width: 320px){
+    .swap-container {
+      width: 50%;
+      height: 200px;
+      top: 33%;
+      left: 3%;
+    }
+  
+    .columna {
+      left: 50%;
+      top: 36%;
+    }
+  
+    .green {
+      display: none;
+    }
+  
+    .columna li {
+      margin-bottom: 1px;
+      font-size: 6px;
+    }
+  
+    .graf {
+      width: 80%;
+      height: 65%;
+      top: 59px;
+    }
+  
+    .linea {
+      margin-top: 8%;
+      margin-left: 115px;
+    }
+  
+    .contenedor-icons {
+      width: 102px;
+      height: 27.5px;
+      top: 32.9%;
+      margin-left: -4.5%;
+      border-radius: 10px;
+    }
+  
+    .icono1 {
+      width: 10px;
+      height: 10px;
+      top: -10px;
+      left: -12px;
+    }
+  
+    .icono2,
+    .icono3,
+    .icono5 {
+      width: 10px;
+      height: 10px;
+    }
+  
+    .icono4 {
+      width: 8px;
+      height: 12px;
+  
+    }
+  
+    .contenedor-amacrux {
+      width: 146px;
+      height: 170px;
+      display: flex;
+      left: 102%;
+      top: 14%;
+    }
+  
+    .amax1 {
+      width: 25%;
+      left: -44%;
+      top: -60%;
+    }
+  
+    .int {
+      width: 125px;
+      border-radius: 10px;
+      height: 25px;
+      top: 10%;
+      left: 5%;
+  
+    }
+  
+    .int h1 {
+      font-size: 10px;
+      margin-left: 75%;
+      margin-top: 20px;
+    }
+  
+    .risk {
+      width: 24%;
+      right: 20%;
+      top: 38%;
+  
+    }
+  
+    .exchangeswap {
+      width: 9%;
+      right: 50%;
+      top: 45%;
+    }
+  
+    .token {
+      width: 15%;
+      left: 5%;
+      top: 50%;
+    }
+  
+    .intt {
+      width: 125px;
+      border-radius: 10px;
+      height: 25px;
+      top: 58%;
+      left: 5%;
+    }
+  
+    .intt h1 {
+      font-size: 10px;
+      margin-left: 75%;
+      margin-top: 20px;
+      ;
+    }
+  
+    .slip {
+      width: 20%;
+  
+      left: 22%;
+  
+    }
+  
+    .cero {
+      width: 15%;
+  
+      left: 65%;
+    }
+  
+    .cross {
+      width: 65%;
+    }
+  
+    .miBoton {
+      top: 32.9%;
+      left: 53%;
+      width: 45px;
+      height: 25px;
+      border-radius: 10px;
+    }
+  
+    .miBoton p {
+      font-size: 9px;
+    }
+  
+    .container-chain p {
+      font-size: 12px;
+      margin-left: -890px;
+    }
+  
+    .swap-text {
+      top: 29%;
+    }
+  
+    .swap-text h1 {
+      font-size: 18px;
+      margin-left: -45px;
+    }
+  
+    .exchange {
+      left: 46%;
+      width: 20px;
+      height: 18px;
+      top: 3%;
+    }
+  
+    .vol {
+      width: 30%;
+      right: 68%;
+      top: 15%;
+    }
+  
+    .vol2 {
+      top: 15.5%;
+      left: 36%;
+      width: 30%;
+    }
+  
+    .vol3 {
+      width: 25%;
+      right: 1%;
+      top: 15%;
+    }
+  
+    .vol4 {
+      position: absolute;
+      left: -5%;
+      top: 24%;
+    }
+  
+    .contenedor-hora ul {
+      display: none;
+    }
+  
+  
+  
+    .container-chain {
+  
+      display: none;
+  
+    }
+  
   
   
   
     .rest {
-      max-width: 50%;
-      max-height: 22%;
-      margin-top: -171%;
-  
+      max-width: 45%;
+      max-height: 25%;
+      margin-top: -230%;
+      left: 1%;
   
     }
   
-    .container-carrusel h1 {
-      margin-left: -29%;
-      margin-top: -192%;
-      font-size: 12px;
-    }
+ 
   
     .container-contexto p {
-   
-      font-size: 10.5px;
-      margin-top: -144%;
-      margin-left: -8%;
+      padding: 12px;
+      margin-left: -13%;
+      margin-top: -155%;
+      width: 190px;
+      font-size: 9px;
     }
   
   
   
     .waths {
-      top: 228%;
-      left: 80px;
+      top: 330%;
+      left: 90px;
+    
     }
   
     .waths h1 {
-      text-align: center;
-      font-size: 16px;
+  
+      font-size: 20px;
+      font-size: 12px;
     }
   
   
@@ -963,7 +1182,7 @@
   
   
     .content-imagen img {
-      width: 43.3%;
+      width: 48.3%;
       left: 1%;
       margin-top: -20%;
     }
@@ -977,10 +1196,19 @@
 
   /*END SECTION EXCHANGE */
 
-  @media only screen and (min-width: 320px) and (max-width: 390px) {
+
+
+
+
+
+  /*SECTION CARDS SOCIAL MEDIA  */
+
+
+  
+  @media  (max-width: 320px) {
     .container-social {
       margin-top: 1%;
-      margin-left: 1%;
+      margin-left: -1%;
     }
   
   
@@ -993,8 +1221,8 @@
     }
   
     .car {
-      width: 6%;
-      height: 145px;
+      width: 7.3%;
+      height: 165px;
       border-radius: 20px;
   
     }
@@ -1009,7 +1237,11 @@
     }
   
     .car h4 {
-
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      margin-left: 6%;
       margin-top: 35%;
     }
   
@@ -1029,7 +1261,11 @@
     .instagram-button {
       margin-left: 25%;
       margin-top: 10%;
-   
+      display: inline-block;
+      text-decoration: none;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s;
     }
   
     .instagram-button img {
@@ -1038,3 +1274,70 @@
       vertical-align: middle;
     }
   }
+ 
+  /*END SECTION SOCIAL MEDIA */
+
+
+
+  /*FOOTER*/
+
+
+
+  @media  (max-width: 320px) {
+
+    footer {
+  
+      top: 3040px;
+      display: flex;
+      height: 100%;
+    }
+  
+    .tab {
+  
+  
+      height: 7%;
+      padding: 10px;
+      margin-top: 40%;
+      font-size: 11px;
+  
+  
+    }
+  
+    .tab a {
+  
+      padding-right: 2px;
+  
+  
+    }
+  
+    .tab::after {
+  
+      font-size: 14px;
+      right: -10;
+  
+    }
+  
+    .tab-content {
+  
+      font-size: 11px;
+      margin-left: -10px;
+  
+  
+    }
+  
+    .tab:hover .tab-content {
+      display: block;
+    }
+  
+  
+    .amaxlogo {
+      height: 5%;
+      margin-left: -70%;
+      margin-top: 20%;
+    }
+  }
+
+
+
+
+
