@@ -1,111 +1,111 @@
 /*----------HEADER---------*/
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 440px) {
 
 
-    header {
-      margin-left: -1px;
-    }
-  
-    body {
-      overflow-x: hidden;
-    }
-  
-    .boton {
-      border: 2px solid #28d1be;
-  
-      font-family: Poppins;
-      padding: 5px 10px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 10px;
-      cursor: pointer;
-    }
-  
-    .dropdown a {
-      font-family: Poppins;
-      font-size: 12px;
-    }
-  
-    .boton-rounded {
-      border-radius: 15px 0 0 15px;
-    }
-  
-    .boton-rounded.opuesto {
-      border-radius: 0 15px 15px 0;
-    }
-  
-    .Alogo {
-      padding: 6px;
-      width: 10%;
-    }
-  
-    .dropdown a {
-      font-size: 10px;
-    }
+  header {
+    margin-left: -1px;
   }
-  
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .boton {
+    border: 2px solid #28d1be;
+
+    font-family: Poppins;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+  .dropdown a {
+    font-family: Poppins;
+    font-size: 12px;
+  }
+
+  .boton-rounded {
+    border-radius: 15px 0 0 15px;
+  }
+
+  .boton-rounded.opuesto {
+    border-radius: 0 15px 15px 0;
+  }
+
+  .Alogo {
+    padding: 6px;
+    width: 10%;
+  }
+
+  .dropdown a {
+    font-size: 10px;
+  }
+}
 
 
-  
+
+
+@media (max-width: 440px) {
+
+
+  .and {
+    margin-top: 230px;
+    font-size: 25px;
+    padding: 100px;
+  }
+}
+
+@media (min-width: 320px) {
+
+  .and {
+    margin-top: 230px;
+    font-size: 20px;
+    padding: 50px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .image-list img {
+    max-width: 50%;
+    height: 60px;
+  }
+}
+
 @media (max-width: 480px) {
+  .image-list img {
+    max-width: 50%;
+    height: 68px;
+    gap: 20px;
+
+  }
+}
 
 
-    .and {
-      margin-top: 230px;
-      font-size: 25px;
-      padding: 100px;
-    }
-  }
-  
-  @media (min-width: 320px) {
-  
-    .and {
-      margin-top: 230px;
-      font-size: 20px;
-      padding: 50px;
-    }
-  }
-  
 
-  @media (max-width: 768px) {
-    .image-list img {
-      max-width: 50%;
-      height: 60px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .image-list img {
-      max-width: 50%;
-      height: 68px;
-      gap: 20px;
-  
-    }
-  }
-  
-
-  
 @media (max-width: 390px) {
 
 
-    .and {
-      margin-top: 230px;
-      font-size: 16px;
-      padding: 100px;
-    }
+  .and {
+    margin-top: 230px;
+    font-size: 16px;
+    padding: 100px;
   }
-  
-  @media (min-width: 240px) {
-  
-    .and {
-      margin-top: 230px;
-      font-size: 18px;
-      padding: 50px;
-    }
+}
+
+@media (min-width: 240px) {
+
+  .and {
+    margin-top: 230px;
+    font-size: 18px;
+    padding: 50px;
   }
-  
+}
+
 
 
 
@@ -116,7 +116,7 @@
 
   /*BOXS*/
 
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (min-width: 320px) and (max-width: 440px) {
 
 
 
@@ -194,7 +194,7 @@
 
 
   
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (min-width: 320px) and (max-width: 440px) {
     .box02 {
       position: absolute;
       width: 100px;
@@ -280,8 +280,7 @@
 
 /*SECTION EXCHANJE */
 
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 440px) {
     .swap-container {
       width: 55%;
       height: 200px;
@@ -497,14 +496,14 @@
     .rest {
       max-width: 55%;
       max-height: 25%;
-      margin-top: -145%;
+      margin-top: -160%;
       left: 1%;
   
     }
   
     .container-carrusel h1 {
       margin-left: -20%;
-      margin-top: -160%;
+      margin-top: -167%;
       font-size: 14px;
     }
   
@@ -518,7 +517,7 @@
   
   
     .waths {
-      top: 207%;
+      top: 227%;
       left: 90px;
     }
   
@@ -560,7 +559,7 @@
 
 
   
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (min-width: 320px) and (max-width: 440px) {
     .container-social {
       margin-top: 1%;
       margin-left: 1%;
@@ -638,7 +637,7 @@
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+  @media only screen and (min-width: 320px) and (max-width: 440px) {
 
     footer {
   
@@ -712,7 +711,7 @@
 
 
 
-  @media only screen and (min-width: 360px) and (max-width: 390px) {
+  @media only screen and (min-width: 270px) and (max-width: 390px) {
 
 
     header {
@@ -916,40 +915,42 @@
 
 
 
-@media only screen and (min-width: 360px) and (max-width: 390px) {
+@media only screen and (min-width: 270px) and (max-width: 390px) {
 
   
   
   
     .rest {
-      max-width: 55%;
-      max-height: 19%;
+      max-width: 50%;
+      max-height: 22%;
       margin-top: -171%;
   
   
     }
   
     .container-carrusel h1 {
-      margin-left: -25%;
-      margin-top: -190%;
+      margin-left: -29%;
+      margin-top: -192%;
       font-size: 12px;
     }
   
     .container-contexto p {
    
-      font-size: 11px;
+      font-size: 10.5px;
+      margin-top: -144%;
+      margin-left: -8%;
     }
   
   
   
     .waths {
-      top: 215%;
-      left: 90px;
+      top: 228%;
+      left: 80px;
     }
   
     .waths h1 {
       text-align: center;
-      font-size: 20px;
+      font-size: 16px;
     }
   
   
@@ -957,7 +958,7 @@
       margin-top: -28%;
       font-size: 25px;
       margin-left: 5%;
-  background-color: blue;
+  
     }
   
   
@@ -975,3 +976,65 @@
   
 
   /*END SECTION EXCHANGE */
+
+  @media only screen and (min-width: 320px) and (max-width: 440px) {
+    .container-social {
+      margin-top: 1%;
+      margin-left: 1%;
+    }
+  
+  
+    .title-socials h1 {
+  
+      font-size: 20px;
+      margin-left: 10px;
+      margin-top: 10%;
+      width: 40%;
+    }
+  
+    .car {
+      width: 6%;
+      height: 145px;
+      border-radius: 20px;
+  
+    }
+  
+    .car img {
+      width: auto;
+      height: 90px;
+    }
+  
+    .car.contenido-card {
+      text-align: center;
+    }
+  
+    .car h4 {
+
+      margin-top: 35%;
+    }
+  
+    .car.contenido-card p {
+      line-height: 1.8;
+      font-size: 4px;
+      margin-bottom: 5px;
+    }
+  
+    .car .contenido-card a {
+      padding: 10px;
+      margin-top: 10px;
+      left: 60%;
+  
+    }
+  
+    .instagram-button {
+      margin-left: 25%;
+      margin-top: 10%;
+   
+    }
+  
+    .instagram-button img {
+      width: 38px;
+      height: 38px;
+      vertical-align: middle;
+    }
+  }

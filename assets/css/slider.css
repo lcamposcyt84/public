@@ -339,12 +339,12 @@
 
 
 
-@media (min-width:320px) and (max-width: 480px) {
+@media (min-width:320px) and (max-width: 440px) {
 
 
   .slider {
 
-    margin-left: -5px;
+    margin-left: -11px;
     position: absolute;
     margin-top: -2382px;
   }
@@ -411,7 +411,12 @@
 
 @media (min-width:320px) and (max-width: 390px) {
 
+  .slider {
 
+    margin-left: -20px;
+    position: absolute;
+
+  }
 
   .order-1 {
     left: 72px;
